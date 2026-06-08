@@ -1,0 +1,30 @@
+@title Texto de título predeterminado
+
+print("Encuesta: ¿Cómo proteger tu contraseña?")
+
+puntuacion = int(input("Ingrese su puntuación (1-10) para ver el mensaje inicial: "))
+
+if 9 <= puntuacion <= 10:
+    print("Felicidades, ¡continúa así!")
+elif 7 <= puntuacion <= 8:
+    print("Se recomienda reforzar algunas prácticas.")
+elif puntuacion >= 1 and puntuacion <= 6:
+    print("Te recomiendo tener mayor atención a las buenas prácticas para una mayor seguridad para tus datos.")
+else:
+    print("Puntuación fuera del rango (1-10).")
+
+print("\n--- Encuesta de seguridad de contraseñas ---")
+print("Por favor, responda 'si' o 'no' a las siguientes preguntas:")
+
+print("1: ¿Usa contraseñas seguras y diferentes en cada cuenta o correo? (si/no)")
+print("2: ¿Tiene activada la verificación de 2 pasos en sus cuentas individuales? (si/no)")
+print("3: ¿Revisa los permisos de las aplicaciones antes de instalarlas? (si/no)")
+print("4: ¿Configura adecuadamente la privacidad en sus redes sociales? (si/no)")
+print("5: ¿Realiza respaldos periódicos de información importante? (si/no)")
+print("6: ¿Actualiza sus contraseñas de manera regular? (si/no)")
+print("7: ¿Evita conectarse a redes wifi públicas para acceder a bancos en línea o realizar operaciones financieras? (si/no)")
+print("8: ¿Mantiene un sistema operativo y aplicaciones actualizadas? (si/no)")
+print("9: ¿No comparte información personal sensible (INE, ubicación, datos bancarios, etc.)? (si/no)")
+print("10: ¿Usa antivirus o herramientas de seguridad en su dispositivo? (si/no)")
+
+print("\n¡Gracias por completar la encuesta! Puedes analizar tus respuestas y mejorar tu seguridad.")
